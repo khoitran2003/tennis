@@ -1,0 +1,20 @@
+batch_size: 2
+
+train:
+  seed: 8325
+  num_epochs: 500
+  max_iters: 200
+  height: 360
+  width: 640
+  lr: 1
+  checkpoint_path: "checkpoints"
+  log_path: "tensorboard"
+  out_channels: 256
+
+val:
+  val_intervals: 5
+  checkpoint_path: "checkpoints"
+
+test:
+
+
